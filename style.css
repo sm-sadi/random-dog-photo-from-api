@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Texturina&display=swap');
+
+body{
+    font-family: 'Texturina', serif;
+  
+} 
+
+.pho{
+    max-width: 60%!important;
+    max-height: 60%!important;
+}
