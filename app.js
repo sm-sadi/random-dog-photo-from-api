@@ -8,7 +8,6 @@ const newbtn= document.getElementById("newbtn");
  async function getRandomDog(){
    const response=  await fetch(apiLink);
    const json =  await response.json();
-   console.log(json.message);
    const forDiv = json.message;
    photoDiv.innerHTML = `<div  id="newphoto" class="text-center mt-4 p-4 ">
    <img src="${forDiv}" class="img-fluid pho " alt="Responsive image">
